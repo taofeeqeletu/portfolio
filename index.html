@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leonard</title>
+
+  <link rel="stylesheet" href="./asset/css/base.css" />
+  <link rel="stylesheet" href="./asset/css/main.css" />
+  <!-- ===== BOX ICONS ===== -->
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <div class="logo">
+        <a href="#" class="nav__logo">Taofeeq</a>
+      </div>
+      <div class="nav__menu" id="nav-menu">
+        <div class="nav__close" id="nav-close">
+          <i class="bx bx-x"></i>
+        </div>
+        <ul class="nav__list">
+        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+          <!-- <li class="nav__item"><a href="#About_us" class="nav__link">About Us</a></li>
+          <li class="nav__item"><a href="#conatct_us" class="nav__link">Contact Us</a></li> -->
+        </ul>
+      </div>
+      <div class="navigation__action">
+        
+        <div class="nav__toggle" id="nav-toggle">
+          <i class='bx bx-menu'></i>
+        </div>
+      </div>
+
+    </nav>
+    </div>
+  </header>
+  <main style="overflow: hidden;">
+ <section class="mt-100 mb-32" id="home">
+   <div class="container">
+     <div class="row relative">
+       <div class="col-lg-6 col-md-6 order-2">
+        <div class="welcome-text ">
+            <div class="heading" >
+                <h3 >Hi, I'm a software</h3>
+                <h1>Engineer</h1>
+                <p>based in Lagos, Nigeria</p>
+            </div>
+            <div class="mt-36">
+              <a href="#" class="btn btn-primary-fill mtb-8 mlr-8 border-radius-9 uppercase">Download CV</a>
+              <a href="#contact" class="btn btn-primary-outline mtb-8 mlr-8 border-radius-9 uppercase">Contact Me</a>
+            </div>
+        </div>
+       </div>
+       <div class="col-lg-6 col-md-6 order-1">
+        <div class=" welcome-text">
+        <div class="image-container">
+            <img  src="./asset/image/JPG.599.JPG" class="responsive_image">
+        </div>
+        </div>
+       </div>
+     </div>
+   </div>
+ </section>
+ <section class="mtb-32" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="about-image-container">
+                    <img class="about-image" src="./asset/image/JPG.599.JPG" />
+                </div>
+            </div>
+            <div class="col-md-6">
+               <div class="about-intro">
+                <p class="">Visit my portfolio and hire me</p>
+                <h1>About Me</h1>
+                <p>I'm a software engineer with a passion for infrastructure as code. I enjoy developing simple, clean and slick web applications that provide real value to the end user. Thousands of clients have procured exceptional results while working with me. Delivering work within time and budget which meets client’s requirements.</p>
+               </div>
+            </div>
+        </div>
+    </div>
+ </section>
+ <section class="mtb-32" id="portfolio">
+    <div class="container">
+        <div class="institution-container">
+           <div class="i-header">
+            <h1>Institution Container</h1>
+           </div>
+            <div class="row">
+                <div class="col-md-6 mt-16">
+                    <div class="i-content">
+                        <h3 class="">Chaste Intellect International School(CIIS)</h3>
+                        <h4>A Science Student</h4>
+                        <p>2019 - 2022</p>
+                       <ul>
+                            <li>Mathematics</li>
+                            <li>English</li>
+                            <li>Physics</li>
+                            <li>Chemistry</li>
+                            <li>Biology</li>
+                            <li>Data Processing</li>
+                            <li>Agricultural Science</li>
+                            <li>Islamic Religious Studies</li>
+                            <li>Civic Education</li>
+                        </ul> 
+                    </div>
+                </div>
+             
+                
+                
+            </div>
+        </div>
+
+    </div>
+ </section>
+  <section class="contact-us pt-60 pb-100 mb-40" id="contact">
+    <div class="container ">
+      <div class="row outline-border ptb-24 ">
+        <div class="col-lg-6 col-md-6 order-2 pt-88 pb-56 mb-24">
+          <form action="/conatct-us" class="contact-form" id="contact-form">
+            <div class="form-group">
+              <label class=" font" for="name">Name <i class='bx bx-x'></i></label>
+              <input type="text" id="name" name="name" class="form-control no-outline font" placeholder="Jimam Event" required>
+            </div>
+            <div class="form-group">
+              <label class=" font" for="email">Email Address <i class='bx bx-x'></i></label>
+              <input type="email" id="email" name="email" class="form-control no-outline font" placeholder="info@jimamevent.com"
+                required>
+            </div>
+            <div class="form-group">
+              <label class=" font" for="phone">Phone Number <i class='bx bx-x'></i></label>
+              <input type="text" id="phone" name="phone" class="form-control no-outline font" placeholder="255-388-444" required>
+            </div>
+            <div class="form-group">
+              <label class=" font" for="message">Message <i class='bx bx-x'></i></label>
+              <textarea row="10" type="text" id="message" name="message" class="form-control no-outline font text-h" placeholder="Enter your query here"
+                required></textarea>
+            </div>
+            <div class="form-group mt-2">
+              <button type="submit" class="btn btn-primary-fill capitalize btn-slim">Submit</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-lg-6 col-md-6 order-1 pt-88 pb-56">
+          <div class="border-top-right mb-150">
+            <div class="section-header pt-100">
+              <h1 class="heads text-center">Let's Talk</h1>
+              <p class="text-center font-pb">Drop off a few lines and we would get back in no time
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer ptb-60 relative">
+    <section class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="company-info">
+            <div class="logo">
+              <a href="#" class="nav__logo logo-footer-nav">Leon</a>
+            </div>
+            <div class="address">
+              <ul class="brand-info">
+                <li><i class='bx bx-map'></i> Eletu Compound,Oloje Housing Estate Federal Low-Cost</li>
+                <li><a href="tel:+1 (062) 109-9222"><i class='bx bxs-phone' ></i> +234 9036169496</a></li>
+                <li><a href="mailto:hello@jimamevent.com"><i class='bx bx-mail-send' ></i> taofeeqeletutaiye@gmail.com</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="company-info pt-16">
+            <div class="links-heading">
+              <h3 class="capitalize">Navigation</h3>
+            </div>
+            <div class="address">
+              <ul class="brand-info capitalize">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="/shop.html">Contact</a></li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="company-info social-container">
+            <ul class="social">
+              <li><a href="#" class="icon"><i class='bx bxl-facebook' ></i></a></li>
+              <li><a href="#" class="icon"><i class='bx bxl-twitter' ></i></a></li>
+              <li><a href="#" class="icon"><i class='bx bxl-instagram' ></i></a></li>
+              <li><a href="#" class="icon"><i class='bx bxl-linkedin' ></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <hr class="mlr-24">
+
+          <div class="site">
+            <p class="site capitalize ">
+              <span class="border-r m"><a href="#" class="">privacy & Policy</a> </span>
+              <span class="border-r m"><a href="#">Terms</a> </span>
+              <span class="m"><a href="#">Site Map</a> </span>
+            </p>
+            <p class="copy-right">&copy; <a href="#">Jimam Event</a> 2021. All rights reserved.</p>
+            <p class="usuage mlr-24">When you visit or interact with our sites, services or tools, we or our authorised service providers may use cookies for storing information to
+              help provide you with a better, faster and safer experience and for marketing purposes.</p>
+          </div>
+          <div class="developer">
+            <span><a href="/">Design and Developed at Pensuh</a></span>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </footer>
+  </main>
+  <script src="./asset/js/main.js"></script>
+
+</html>

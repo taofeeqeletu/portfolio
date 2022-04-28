@@ -1,0 +1,25 @@
+{
+  "name": "thirdproject",
+  "version": "1.0.0",
+  "description": "this is my portfolio website",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tetranyble/taofeeqeletu.git"
+  },
+  "keywords": [
+    "portfolio",
+    "website",
+    "fronted",
+    "backend"
+  ],
+  "author": "Taiye-Eletu Taofeeq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tetranyble/taofeeqeletu/issues"
+  },
+  "homepage": "https://github.com/Tetranyble/taofeeqeletu#readme"
+}
