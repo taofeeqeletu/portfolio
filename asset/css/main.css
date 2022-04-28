@@ -973,6 +973,8 @@ a {
 
 .welcome-text{
     top: 16px;
+    display: flex;
+    justify-content: center;
 }
 /*========================== MEDIA QUERY ==========================*/
 @media (min-width: 320px){
